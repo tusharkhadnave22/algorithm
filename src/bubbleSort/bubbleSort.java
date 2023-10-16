@@ -16,7 +16,7 @@ public class bubbleSort {
     }
 	public static void main(String[] args) {
 		
-        int []a=new int[] {5,4,3,2,1};
+        int []a=new int[] {5,4,10,78,4,3,2,1};
         int []ans=bubble(a);
         for(int x:ans) {
         	System.out.print(x);
